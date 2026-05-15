@@ -20,7 +20,25 @@ public:
         return actualsum - numsum;
     }
 };
+// THis is slightly better 
+class SolutionXOR {
+public:
 
+    int missingNumber(vector<int>& nums) {
+
+        int xorValue = 0;
+
+        for(int i = 0; i < nums.size(); i++) {
+
+            xorValue ^= i;
+            xorValue ^= nums[i];
+        }
+
+        xorValue ^= nums.size();
+
+        return xorValue;
+    }
+};
 int main() {
 
     int n;
