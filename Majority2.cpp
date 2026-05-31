@@ -22,7 +22,6 @@ vector<int> MajoritybyThird(vector<int> &v)
         }
         else if (v[i] == el1)
         {
-
             cnt1++;
         }
         else if (v[i] == el2)
