@@ -39,7 +39,7 @@ int main()
     {
         cin >> nums[i];
     }
-    Solution obj;
+    Solution  obj;
     vector<vector<int>> ans = obj.fourSum(nums, target);
     for (int i = 0; i < ans.size(); i++)
     {
