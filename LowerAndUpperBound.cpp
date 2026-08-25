@@ -46,3 +46,28 @@ int main() {
 
     return 0;
 }
+
+
+// Below code is very important fro the COMPETITIVE PROGRAMMING 
+
+// #include <iostream>
+// #include <vector>
+// #include <algorithm> // Required header
+
+// using namespace std;
+
+// int main() {
+//     vector<int> nums = {1, 3, 5, 5, 5, 8, 10};
+//     int target = 5;
+
+//     // 1. Get lower bound index (>= 5) -> Index 2 (value 5)
+//     int lb_idx = lower_bound(nums.begin(), nums.end(), target) - nums.begin();
+
+//     // 2. Get upper bound index (> 5) -> Index 5 (value 8)
+//     int ub_idx = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
+
+//     cout << "Lower Bound Index: " << lb_idx << "\n";
+//     cout << "Upper Bound Index: " << ub_idx << "\n";
+
+//     return 0;
+// } this is the predefinend stl for the upper and lower bound in cpp
