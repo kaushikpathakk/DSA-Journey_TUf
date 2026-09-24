@@ -11,7 +11,7 @@ class Solution {
         int ans = n;
         
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int mid = low + (high - low) / 2 ;
             if (arr[mid] >= x) {
                 ans = mid;
                 high = mid - 1;
