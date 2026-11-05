@@ -1,13 +1,12 @@
-#include <bits/stdc++.h>
+#include <vector>
+#include<iostream>
 using namespace std;
 
 class Solution {
 public:
 
     void sortZeroOneTwo(vector<int>& nums) {
-
         int n = nums.size();
-
         int low = 0;
         int mid = 0;
         int high = n - 1;

@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 int Majority(vector<int> a) {
     int n = a.size();
